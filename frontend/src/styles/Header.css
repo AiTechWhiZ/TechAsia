@@ -7,11 +7,11 @@
   padding: 10px 15px;
   z-index: 1000;
   height: 110px;
-  transition: all 0.3s ease; /* Add transition for smooth changes */
+  transition: all 0.3s ease;
 }
 
 .navbar.sticky {
-  background-color: rgba(0, 0, 0, 0.9); /* Slightly transparent when sticky */
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-container {
@@ -29,17 +29,17 @@
   width: 240px;
   height: auto;
   cursor: pointer;
-  transition: all 0.3s ease; /* Transition for the logo */
+  transition: all 0.3s ease;
 }
 
 .circular-logo {
-  width: 85px; /* Smaller size for circular logo */
+  width: 85px;
   height: 77px;
-  border-radius: 50%; /* Make the logo circular */
+  border-radius: 50%;
 }
 
 .mobile-image {
-  display: none; /* Hide mobile image by default */
+  display: none;
 }
 
 .nav-menu {
@@ -48,7 +48,7 @@
   list-style: none;
   transition: all 0.3s ease;
   margin-left: auto;
-  background-color: transparent; /* Transparent background for larger screens */
+  background-color: transparent;
 }
 
 .nav-item {
@@ -85,7 +85,7 @@
   position: absolute;
   right: 30px;
   top: 50%;
-  transform: translateY(50%); /* Center vertically */
+  transform: translateY(50%);
 }
 
 .menu-icon div {
@@ -116,17 +116,17 @@
 
   .nav-menu {
     display: none;
-    position: fixed; /* Fix position to avoid scrolling */
-    top: 0; /* Align to top */
-    right: 0; /* Initially hide off-screen to the right */
-    height: 100vh; /* Full height of the screen */
-    width: 60%; /* Full width of the screen */
-    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
-    flex-direction: column; /* Column layout for menu items */
-    align-items: center; /* Center menu items horizontally */
-    justify-content: center; /* Center menu items vertically */
-    z-index: 999; /* Ensure it's on top of other content */
-    transition: right 0.3s ease; /* Enable scrolling for long menus */
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: right 0.3s ease;
   }
 
   .nav-menu.open {
@@ -136,36 +136,36 @@
   .nav-item {
     color: rgb(254, 4, 4);
     text-align: center;
-    margin-bottom: 20px; /* Adjust margin between items */
+    margin-bottom: 20px;
   }
 
   .nav-item:last-child {
-    margin-bottom: 0; /* Remove margin from last item */
+    margin-bottom: 0;
   }
 
   .menu-icon {
-    display: flex; /* Show menu icon */
-    z-index: 1000; /* Ensure it's on top of other content */
+    display: flex;
+    z-index: 1000;
     position: absolute;
-    top: 20px; /* Align to the top */
-    right: 20px; /* Align to the right */
+    top: 20px;
+    right: 20px;
   }
 
   .navbar-logo {
     align-self: flex-start;
-    width: 180px; /* Ensure the logo stays on the left */
+    width: 180px;
   }
 
   .navbar-logo img {
-    width: 85px; /* Adjust size of the circular logo */
-    height: 83px; /* Maintain aspect ratio */
+    width: 85px;
+    height: 83px;
   }
 
   .mobile-image {
-    display: block; /* Show mobile image */
-    width: 200px; /* Increase width */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 10px; /* Align the image to the left with some margin */
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
   }
 }
 
@@ -173,26 +173,26 @@
   .navbar-container {
     flex-direction: column;
     align-items: center;
-    height: auto; /* Adjust height to fit content */
+    height: auto;
   }
 
   .nav-menu {
     display: none;
-    position: fixed; /* Fix position to avoid scrolling */
-    top: 0; /* Align to top */
-    right: 0; /* Initially hide off-screen to the right */
-    height: 100vh; /* Full height of the screen */
-    width: 60%; /* Full width of the screen */
-    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
-    flex-direction: column; /* Column layout for menu items */
-    align-items: center; /* Center menu items horizontally */
-    justify-content: center; /* Center menu items vertically */
-    z-index: 999; /* Ensure it's on top of other content */
-    transition: right 0.3s ease; /* Slide transition */
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: right 0.3s ease;
   }
 
   .nav-menu.open {
-    right: 0; /* Slide in from the right */
+    right: 0;
     display: flex;
   }
 
@@ -210,19 +210,19 @@
   }
 
   .navbar-logo {
-    width: 80px; /* Adjust size for smaller screens */
+    width: 80px;
     margin-bottom: 20px;
   }
 
   .navbar-logo img {
-    width: 80px; /* Adjust size of the logo for smaller screens */
+    width: 80px;
     height: auto;
   }
 
   .mobile-image {
-    display: block; /* Show mobile image */
-    width: 200px; /* Increase width */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 10px; /* Align the image to the left with some margin */
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
   }
 }

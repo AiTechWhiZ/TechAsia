@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import '../styles/Header.css';
 import LogoRectangular from '../Images/Logo/rectangularlogo.png';
 import LogoCircular from '../Images/Logo/circularlogo.png';
-import MobileImage from '../Images/Logo/name.png'; // Adjust path as per your project structure
+import MobileImage from '../Images/Logo/name.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

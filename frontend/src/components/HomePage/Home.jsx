@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <main>
       <Header />
-      <div className="page-header"></div>
+      <div className="home-page-header"></div>
       <main className='home'>
         <FirstDivision />
         <SecondDivision />
