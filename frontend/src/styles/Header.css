@@ -1,0 +1,228 @@
+/* Navbar Styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 10px 15px;
+  z-index: 1000;
+  height: 110px;
+  transition: all 0.3s ease; /* Add transition for smooth changes */
+}
+
+.navbar.sticky {
+  background-color: rgba(0, 0, 0, 0.9); /* Slightly transparent when sticky */
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 240px;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transition for the logo */
+}
+
+.circular-logo {
+  width: 85px; /* Smaller size for circular logo */
+  height: 77px;
+  border-radius: 50%; /* Make the logo circular */
+}
+
+.mobile-image {
+  display: none; /* Hide mobile image by default */
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  transition: all 0.3s ease;
+  margin-left: auto;
+  background-color: transparent; /* Transparent background for larger screens */
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-item a.nav-links {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 3px;
+}
+
+.nav-item a.nav-links:hover {
+  color: red;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.nav-item a.nav-links.active {
+  font-weight: lighter;
+  font-style: italic;
+  color: red;
+  text-shadow: 4px 8px 10px rgba(255, 255, 254, 0.999);
+  height: 20px;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(50%); /* Center vertically */
+}
+
+.menu-icon div {
+  width: 25px;
+  height: 4px;
+  background-color: white;
+  color: black;
+  margin: 4px 0;
+  transition: all 0.3s;
+}
+
+.menu-icon.open .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-icon.open .bar2 {
+  opacity: 0;
+}
+
+.menu-icon.open .bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media screen and (max-width: 1041px) {
+  .navbar-container {
+    flex-direction: row;
+  }
+
+  .nav-menu {
+    display: none;
+    position: fixed; /* Fix position to avoid scrolling */
+    top: 0; /* Align to top */
+    right: 0; /* Initially hide off-screen to the right */
+    height: 100vh; /* Full height of the screen */
+    width: 60%; /* Full width of the screen */
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+    flex-direction: column; /* Column layout for menu items */
+    align-items: center; /* Center menu items horizontally */
+    justify-content: center; /* Center menu items vertically */
+    z-index: 999; /* Ensure it's on top of other content */
+    transition: right 0.3s ease; /* Enable scrolling for long menus */
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-item {
+    color: rgb(254, 4, 4);
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin between items */
+  }
+
+  .nav-item:last-child {
+    margin-bottom: 0; /* Remove margin from last item */
+  }
+
+  .menu-icon {
+    display: flex; /* Show menu icon */
+    z-index: 1000; /* Ensure it's on top of other content */
+    position: absolute;
+    top: 20px; /* Align to the top */
+    right: 20px; /* Align to the right */
+  }
+
+  .navbar-logo {
+    align-self: flex-start;
+    width: 180px; /* Ensure the logo stays on the left */
+  }
+
+  .navbar-logo img {
+    width: 85px; /* Adjust size of the circular logo */
+    height: 83px; /* Maintain aspect ratio */
+  }
+
+  .mobile-image {
+    display: block; /* Show mobile image */
+    width: 200px; /* Increase width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Align the image to the left with some margin */
+  }
+}
+
+@media screen and (max-width: 693px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Adjust height to fit content */
+  }
+
+  .nav-menu {
+    display: none;
+    position: fixed; /* Fix position to avoid scrolling */
+    top: 0; /* Align to top */
+    right: 0; /* Initially hide off-screen to the right */
+    height: 100vh; /* Full height of the screen */
+    width: 60%; /* Full width of the screen */
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+    flex-direction: column; /* Column layout for menu items */
+    align-items: center; /* Center menu items horizontally */
+    justify-content: center; /* Center menu items vertically */
+    z-index: 999; /* Ensure it's on top of other content */
+    transition: right 0.3s ease; /* Slide transition */
+  }
+
+  .nav-menu.open {
+    right: 0; /* Slide in from the right */
+    display: flex;
+  }
+
+  .nav-item {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: flex;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 1000;
+  }
+
+  .navbar-logo {
+    width: 80px; /* Adjust size for smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .navbar-logo img {
+    width: 80px; /* Adjust size of the logo for smaller screens */
+    height: auto;
+  }
+
+  .mobile-image {
+    display: block; /* Show mobile image */
+    width: 200px; /* Increase width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Align the image to the left with some margin */
+  }
+}
