@@ -1,0 +1,172 @@
+main#sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../Images/Logo/bg1.jpg') no-repeat center center fixed;
+    background-size: 1700px;
+    overflow: hidden;
+}
+
+.wrappers {
+    background: rgba(255, 255, 255, 0.015); /* Semi-transparent background color */
+    padding: 50px; /* Increased padding */
+    border-radius: 10px;
+    border: 2px solid #b7b0b0b9;
+    box-shadow: 0 2px 12px rgba(255, 255, 255, 0.2);
+    width: 400px; /* Increased width */
+    height: 430px; /* Increased height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Blur effect */
+}
+
+.input-form {
+    max-width: 100%; /* Ensure form takes full width of the wrapper */
+    width: 100%; /* Ensure form takes full width of the wrapper */
+    margin: auto;
+}
+
+.input-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.field-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.field {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: transparent; /* Semi-transparent background */
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+.field::placeholder {
+    color: #fff;
+}
+
+.icon {
+    position: absolute;
+    top: 42%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+    cursor: pointer; /* Make the icon clickable */
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-forgot label {
+    font-size: 14px;
+    color: #e0d8d8f4;
+}
+
+.remember-forgot a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.butns {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background: transparent;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.737);
+}
+
+.butns:hover {
+    background: white;
+    color: black;
+    border: 1px solid rgba(128, 128, 128, 0.648);
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.562);
+    -webkit-transition: color .5s linear, background-color .5s linear, border-color .5s linear, opacity .5s linear;
+    transition: color .5s linear, background-color .5s linear, border-color .5s linear, opacity .5s linear;
+}
+
+.pages-header {
+    background-color: red;
+    width: 100%;
+    height: 36px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.sign-up {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+    color: red;
+    -webkit-transition: color .4s linear, background-color .4s linear, border-color .4s linear, opacity .4s linear;
+    transition: color .4s linear, background-color .5s linear, border-color .4s linear, opacity .4s linear;
+}
+
+/* Responsive Styles */
+@media (max-width: 1041px) {
+    main#sign {
+        background-size: cover;
+    }
+    .wrappers {
+        width: 80%;
+        padding: 30px;
+    }
+    .field {
+        font-size: 14px;
+        padding: 8px 30px 8px 8px;
+    }
+    .butns {
+        font-size: 20px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 693px) {
+    .wrappers {
+        width: 90%;
+        padding: 20px;
+    }
+    .field {
+        font-size: 12px;
+        padding: 6px 20px 6px 6px;
+    }
+    .butns {
+        font-size: 18px;
+        padding: 6px;
+    }
+}

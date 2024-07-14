@@ -4,6 +4,8 @@ import Home from './components/HomePage/Home'
 import Products from './components/Products'
 import DigitalBusinessCard from './components/DigitalBusinessCard'
 import TechBlog from './components/TechBlog'
+import EngineeringProjects from './components/EngineeringProjects'
+import ContactUs from './components/ContactUs'
 
 function App(){
   return (
@@ -13,6 +15,8 @@ function App(){
         <Route path='/products' element ={<Products />} />
         <Route path='/digital-business-card' element ={<DigitalBusinessCard />} />
         <Route path='/tech-blog' element ={<TechBlog />} />
+        <Route path='/engineering-projects' element ={<EngineeringProjects />} />
+        <Route path='/contact-us' element ={<ContactUs />} />
       </Routes>
     </Router>
   )
