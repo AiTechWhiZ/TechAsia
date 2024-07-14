@@ -54,7 +54,7 @@ function TechBlog() {
                     Here We will discuss about dimmer circuit using TRIAC. Basics of TRIAC is not covered in detail, you can refer it on google. Diagram 1 above shows basic construction and symbol of TRIAC. Diagram 2 shows Working Quadrants of TRIAC ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/dimmer-using-triac/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/dimmer-using-triac/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -78,7 +78,7 @@ function TechBlog() {
                     Graphene is 2D structure of Graphite from which our pencil is made up of. Two scientists, A Geim and K Novoselov, at the University of Manchester created the first sample of graphene by polishing Graphite with tape and they noticed ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/graphene-batteries-future-is-now/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/graphene-batteries-future-is-now/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -104,7 +104,7 @@ function TechBlog() {
                     case Huawei smartphones and computers can't use Android ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/hongmeng-huaweis-self-developed-os/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/hongmeng-huaweis-self-developed-os/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -130,7 +130,7 @@ function TechBlog() {
                     brain to tell it all is well, ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/%e0%a5%90-voice-prosthesis-%e2%82%b950-speaking-device-for-a-throat-cancer-patient/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/%e0%a5%90-voice-prosthesis-%e2%82%b950-speaking-device-for-a-throat-cancer-patient/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -156,7 +156,7 @@ function TechBlog() {
                     transferring assets like ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/good-news-for-arduino-users-an-arduino-board-that-shows-up-as-a-disk-drive/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/good-news-for-arduino-users-an-arduino-board-that-shows-up-as-a-disk-drive/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -182,7 +182,7 @@ function TechBlog() {
                     service framework uncheck User Experience Program uncheck Send diagnostic data automatically Ad...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/if-you-are-using-xiaomi-redmi-mobile-first-do-these-settings-then-start-using/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/if-you-are-using-xiaomi-redmi-mobile-first-do-these-settings-then-start-using/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -208,7 +208,7 @@ function TechBlog() {
                     using photoshop cc in ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/how-to-save-vrml-wrl-3d-file-as-3d-pdf-using-photoshop-cc/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/how-to-save-vrml-wrl-3d-file-as-3d-pdf-using-photoshop-cc/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -233,7 +233,7 @@ function TechBlog() {
                     note 7 is a clear winner ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/quick-comparison-between-redmi-note7-realmi-3/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/quick-comparison-between-redmi-note7-realmi-3/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -259,7 +259,7 @@ function TechBlog() {
                     Indian currency the amount includes the price ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/worlds-most-expensive-anniversary-celebration-by-bugatti/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/worlds-most-expensive-anniversary-celebration-by-bugatti/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -285,7 +285,7 @@ function TechBlog() {
                     with several useful features that are ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/xiaomi-reveals-a-list-of-features-that-will-be-added-in-the-new-miui-update/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/xiaomi-reveals-a-list-of-features-that-will-be-added-in-the-new-miui-update/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -311,7 +311,7 @@ function TechBlog() {
                     It has: Poly-carbonate Back and Frame must be metal ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/vivo-v15-pro-does-not-justify-its-price-tag/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/vivo-v15-pro-does-not-justify-its-price-tag/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -337,7 +337,7 @@ function TechBlog() {
                     micro-processor Called Shakti. The Shakti project was founded in 2014 as ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/shakti-fully-indigenous-micro-processor-from-iit-madras/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/shakti-fully-indigenous-micro-processor-from-iit-madras/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -363,7 +363,7 @@ function TechBlog() {
                     "U" Shaped Triple Camera setup at the ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/vivo-v15-pro-with-32mp-popup-selfie-camera-and-triple-back-camera/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/vivo-v15-pro-with-32mp-popup-selfie-camera-and-triple-back-camera/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -389,7 +389,7 @@ function TechBlog() {
                     punch hole now days. Meizu unveils hole-less ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/vivo-v15-pro-with-32mp-popup-selfie-camera-and-triple-back-camera/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/vivo-v15-pro-with-32mp-popup-selfie-camera-and-triple-back-camera/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -415,7 +415,7 @@ function TechBlog() {
                     "U" Shaped Triple Camera setup at the ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/vivo-v15-pro-with-32mp-popup-selfie-camera-and-triple-back-camera/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/vivo-v15-pro-with-32mp-popup-selfie-camera-and-triple-back-camera/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -441,7 +441,7 @@ function TechBlog() {
                     category. It comes with, Latest market trend waterdrop U ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/redmi-note-7-midrange-killer/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/redmi-note-7-midrange-killer/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -467,7 +467,7 @@ function TechBlog() {
                     support. It is powered by the ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/xiaomi-mi-tv-4x-pro-55-mi-tv-4a-pro-43-and-mi-soundbar-latest-launched-in-india/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/xiaomi-mi-tv-4x-pro-55-mi-tv-4a-pro-43-and-mi-soundbar-latest-launched-in-india/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -493,7 +493,7 @@ function TechBlog() {
                     Cambridge University. At 21, he ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/great-physicist-stephen-hawking-using-elocutor-to-communicate-with-world-it-is-an-open-source-software-made-by-arun-mehata-in-india/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/great-physicist-stephen-hawking-using-elocutor-to-communicate-with-world-it-is-an-open-source-software-made-by-arun-mehata-in-india/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -519,7 +519,7 @@ function TechBlog() {
                     the surface of the glass to toughen the glass. During its manufacture, The ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/how-mobile-glass-is-made-toughened-and-scratch-resistant-who-are-the-manufacturer/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/how-mobile-glass-is-made-toughened-and-scratch-resistant-who-are-the-manufacturer/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -545,7 +545,7 @@ function TechBlog() {
                     Motorola P40 will come with Punch hole on left ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/motorola-p40-will-come-with-display-hole-for-selfie-camera/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/motorola-p40-will-come-with-display-hole-for-selfie-camera/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -571,7 +571,7 @@ function TechBlog() {
                     strap with traditional hook. Other features ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/honor-band-4-the-best-band/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/honor-band-4-the-best-band/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -597,7 +597,7 @@ function TechBlog() {
                     transmission line and Increase in frequency ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/50hz-frequency-used-in-india-not-20-30-120-hz-why/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/50hz-frequency-used-in-india-not-20-30-120-hz-why/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -623,7 +623,7 @@ function TechBlog() {
                     type Charging port, thumbs up ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/oneplus-bullets-wireless-review/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/oneplus-bullets-wireless-review/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -649,7 +649,7 @@ function TechBlog() {
                     Slider mechanism for front facing camera. Dual Camera with ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/worlds-first-phone-comes-with-12-gb-ram-snapdragon-855-512-gb-storage/" className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/worlds-first-phone-comes-with-12-gb-ram-snapdragon-855-512-gb-storage/" className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -676,7 +676,7 @@ function TechBlog() {
 
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/lets-learn-transistor/"  className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/lets-learn-transistor/"  className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -702,7 +702,7 @@ function TechBlog() {
                     physics says current can not pass through an insulator, ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/current-flows-through-capacitor/"  className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/current-flows-through-capacitor/"  className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -728,7 +728,7 @@ function TechBlog() {
                     twiking ear tips we can get some ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/jabra-elite-25e-improved-sound-quality/"  className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/jabra-elite-25e-improved-sound-quality/"  className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -753,7 +753,7 @@ function TechBlog() {
                   Charger ...
                   </div>
                   <div className="button">
-                    <a href="https://techasiamechatronics.com/tech-news-from-mobile-world/"  className="pt-cv-readmore btn switch btn-success" target="_blank" rel="noopener noreferrer">
+                    <a href="https://techasiamechatronics.com/tech-news-from-mobile-world/"  className="pt-cv-readmore btn animation btn-success" target="_blank" rel="noopener noreferrer">
                       Read More
                     </a>
                   </div>
@@ -768,7 +768,7 @@ function TechBlog() {
           <form className="search-blog">
             <h2>Search Blog</h2>
             <input type="text" id="search-input" placeholder="Start Typing..." />
-            <input type="submit" className="search switch" value="SEARCH" placeholder='Seach'/>
+            <input type="submit" className="search animation" value="SEARCH" placeholder='Seach'/>
           </form>
 
           <h2>TECH NEWS</h2>

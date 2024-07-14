@@ -36,8 +36,8 @@ function ContactUs() {
             </p>
           </div>
           <div className="contact-info">
-            <p><a className='switch' href="tel:+917666308198">+91 7666308198</a></p>
-            <p><a className='switch' href="mailto:info@techasiamechatronics.com">info@techasiamechatronics.com</a></p>
+            <p><a className='animation' href="tel:+917666308198">+91 7666308198</a></p>
+            <p><a className='animation' href="mailto:info@techasiamechatronics.com">info@techasiamechatronics.com</a></p>
           </div>
           <div className="map">
             <iframe 
@@ -57,12 +57,12 @@ function ContactUs() {
           <h2>Get in touch</h2>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <input className='switch' type="text" id="username" name="username" placeholder='*UserName' onChange={(e) => setUserName(e.target.value)} required />
-              <input className='switch' type="email" id="email" name="email" placeholder='*Email' onChange={(e) => setEmail(e.target.value)} required />
-              <input className='switch' type="tel" id="phone" name="phone" placeholder='*Phone No' onChange={(e) => setPhone(e.target.value)} required />
-              <textarea className='switch' rows="14" id="message" name="message" placeholder='*Message' onChange={(e) => setMessage(e.target.value)} required></textarea>
+              <input className='animation' type="text" id="username" name="username" placeholder='*UserName' onChange={(e) => setUserName(e.target.value)} required />
+              <input className='animation' type="email" id="email" name="email" placeholder='*Email' onChange={(e) => setEmail(e.target.value)} required />
+              <input className='animation' type="tel" id="phone" name="phone" placeholder='*Phone No' onChange={(e) => setPhone(e.target.value)} required />
+              <textarea className='animation' rows="14" id="message" name="message" placeholder='*Message' onChange={(e) => setMessage(e.target.value)} required></textarea>
             </div>
-            <button type="submit" className='btns switch'>Send</button>
+            <button type="submit" className='btns animation'>Send</button>
           </form>
         </div>
       </div>
