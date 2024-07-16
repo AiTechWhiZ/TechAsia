@@ -1,3 +1,4 @@
+// components/TechBlogUpload.jsx
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
@@ -7,6 +8,7 @@ const TechBlogUpload = () => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [image, setImage] = useState(null);
+  const [createdAt, setCreatedAt] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
   const navigate = useNavigate();
 
@@ -22,6 +24,7 @@ const TechBlogUpload = () => {
       formData.append('title', title);
       formData.append('content', content);
       formData.append('image', image);
+      formData.append('createdAt', createdAt);
 
       const response = await axios.post('http://localhost:3001/upload-techblog', formData, {
         headers: {
@@ -42,7 +45,6 @@ const TechBlogUpload = () => {
   return (
     <div className="upload-container">
       <h2>Upload Tech Blog</h2>
-      {successMessage && <p className="success-message">{successMessage}</p>}
       <form onSubmit={handleTechBlogUpload}>
         <input
           type="text"
@@ -63,7 +65,14 @@ const TechBlogUpload = () => {
           accept="image/png, image/jpeg"
           required
         />
+        <input
+          type="date"
+          value={createdAt}
+          onChange={(e) => setCreatedAt(e.target.value)} 
+          required
+        />
         <button type="submit">Upload</button>
+        {successMessage && <p className="success-message">{successMessage}</p>}
       </form>
     </div>
   );

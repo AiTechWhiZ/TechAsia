@@ -1,12 +1,12 @@
-// models/TechBlog.js
 const mongoose = require('mongoose');
 
-const TechBlogSchema = new mongoose.Schema({
-  title: { type: String, required: true },
-  content: { type: String, required: true },
-  image: { type: String, required: true },
+const techBlogSchema = new mongoose.Schema({
+  title: String,
+  content: String,
+  image: String,
+  createdAt: { type: Date, required: true } // Updated to accept Date type
 });
 
-const TechBlog = mongoose.model('TechBlog', TechBlogSchema);
+const TechBlogModel = mongoose.model('TechBlog', techBlogSchema);
 
-module.exports = TechBlog;
+module.exports = TechBlogModel;

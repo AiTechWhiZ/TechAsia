@@ -25,13 +25,17 @@ function DigitalBusinessCard() {
   const [url, setUrl] = useState()
   const [address, setAddress] = useState()
   const [service, setService] = useState()
+  const [successMessage, setSuccessMessage] = useState('');
   const navigate = useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault()
     axios.post('http://localhost:3001/dbc', {fullname, contactno, email, url, address, service})
     .then(result => { console.log(result)
+      setSuccessMessage('Details uploaded successfully!');
+      setTimeout(() => {
       navigate('/digital-business-card')
+    }, 2000); // Redirect after 2 seconds
     })
     .catch(err => console.log(err))
   }
@@ -106,7 +110,7 @@ function DigitalBusinessCard() {
             <h2>mydigitalcard.page.link/priyesh</h2>
             <p>Click to view my vCard</p>
             <div className="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/U-5adrExIQM?si=4aEpqWsE1_cLVrNn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U-5adrExIQM?si=4aEpqWsE1_cLVrNn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>
           <div className="pricing-section">
@@ -147,6 +151,7 @@ function DigitalBusinessCard() {
                 <textarea name="address" placeholder="Address" onChange={(e) => setAddress(e.target.value)} ></textarea>
                 <textarea name="tagline" placeholder="Tagline/ Products/ Services" onChange={(e) => setService(e.target.value)} ></textarea>
                 <button type="submit">Submit</button>
+                {successMessage && <p className="success-message">{successMessage}</p>}
               </form>
             </div>
           </div>

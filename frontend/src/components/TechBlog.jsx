@@ -9,6 +9,10 @@ function TechBlog() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
+    fetchTechBlogs();
+  }, []);
+
+  const fetchTechBlogs = () => {
     axios.get('http://localhost:3001/techblogs')
       .then(response => {
         setBlogs(response.data);
@@ -16,7 +20,7 @@ function TechBlog() {
       .catch(error => {
         console.error('Error fetching tech blogs:', error);
       });
-  }, []);
+  };
 
   return (
     <main>
@@ -38,7 +42,7 @@ function TechBlog() {
                       </a>
                     </h4>
                     <div className="TBcontent">
-                      {blog.content.substring(0, 100)}...
+                      {blog.content.substring(0, 300)}...
                     </div>
                     <span>{moment(blog.createdAt).format('MMMM Do, YYYY')}</span>
                   </div>
@@ -47,6 +51,7 @@ function TechBlog() {
             ))}
           </div>
         </main>
+
         <aside className="sidebar">
           <form className="search-blog">
             <h2>Search Blog</h2>
@@ -126,6 +131,7 @@ function TechBlog() {
             </div>
           </div>
         </aside>
+        
       </div>
       <Footer />
     </main>

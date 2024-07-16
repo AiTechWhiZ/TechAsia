@@ -40,10 +40,9 @@ const AdminPanel = () => {
             <ul>
               {contacts.map(contact => (
                 <li key={contact._id}>
-                  <p>Name: {contact.username}</p>
-                  <p>Email: {contact.email}</p>
-                  <p>Phone: {contact.phone}</p>
-                  <p>Message: {contact.message}</p>
+                  <p><strong>Email:</strong> {contact.email}</p>
+                  <p><strong>Phone:</strong> {contact.phone}</p>
+                  <p><strong>Message:</strong> {contact.message}</p>
                 </li>
               ))}
             </ul>
@@ -53,12 +52,11 @@ const AdminPanel = () => {
             <ul>
               {dbcs.map(card => (
                 <li key={card._id}>
-                  <p>Name: {card.fullname}</p>
-                  <p>Contact No.: {card.contactno}</p>
-                  <p>Email: {card.email}</p>
-                  <p>URL: {card.url}</p>
-                  <p>Address: {card.address}</p>
-                  <p>Service: {card.service}</p>
+                  <p><strong>Name: </strong>  {card.fullname}</p>
+                  <p><strong>Contact No:</strong> {card.contactno}</p>
+                  <p><strong>Email:</strong> {card.email}</p>
+                  <p><strong>URL:</strong> {card.url}</p>
+                  <p><strong>Address:</strong> {card.address}</p>
                 </li>
               ))}
             </ul>
