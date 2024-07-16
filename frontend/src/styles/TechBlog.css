@@ -65,16 +65,17 @@
 }
 
 .button{
-  width: 30%;
-  height: 100%;
+  width: 300%;
+  height: 50px;
+  margin-bottom: 10px;
 }
 
 .button a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85%;
-  width: 100%;
+  height: 100%;
+  width: 50%;
   padding: 5px;
   text-align: center;
   background-color: #28a745;
@@ -87,8 +88,8 @@
 .button a:hover {
   background-color: #218838;
   color: #fff; 
-  width: 100%;
-  height: 46px;
+  width: 50%;
+  height: 100%;
   font-size: 20px;
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.999);
 }
@@ -275,3 +276,10 @@ h2{
     margin-top: 10px;
   }
 }
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+

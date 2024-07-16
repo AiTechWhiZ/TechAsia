@@ -23,7 +23,7 @@ const Login = () => {
       const response = await axios.post('http://localhost:3001/login', { email, password });
       console.log(response.data);
       if (response.data === "Success") {
-        navigate('/');
+        navigate('/admin');
       }
     } catch (error) {
       console.error('Login failed:', error);

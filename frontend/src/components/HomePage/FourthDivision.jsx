@@ -1,14 +1,14 @@
-import React from 'react'
-import Slider from 'react-slick'
-import '../../styles/Home/FourthDivision.css'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import client1 from '../../Images/Home/FourthDiv/c1.png'
-import client2 from '../../Images/Home/FourthDiv/c2.jpg'
-import client3 from '../../Images/Home/FourthDiv/c3.jpg'
-import client4 from '../../Images/Home/FourthDiv/c4.jpg'
-import client5 from '../../Images/Home/FourthDiv/c5.jpg'
-import client6 from '../../Images/Home/FourthDiv/c6.jpg'
+import React from 'react';
+import Slider from 'react-slick';
+import '../../styles/Home/FourthDivision.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import client1 from '../../Images/Home/FourthDiv/c1.png';
+import client2 from '../../Images/Home/FourthDiv/c2.jpg';
+import client3 from '../../Images/Home/FourthDiv/c3.jpg';
+import client4 from '../../Images/Home/FourthDiv/c4.jpg';
+import client5 from '../../Images/Home/FourthDiv/c5.jpg';
+import client6 from '../../Images/Home/FourthDiv/c6.jpg';
 
 const FourthDivision = () => {
     const projects = [
@@ -24,23 +24,22 @@ const FourthDivision = () => {
         },
         { 
             id: 3,  
-            description: 'Installed Digital Timer ( techAsia make) with buzzer for Electrode powder mixing timing maintaining and monitoring.They are leading welding rods manufactures in India.',  
+            description: 'Installed Digital Timer ( techAsia make) with buzzer for Electrode powder mixing timing maintaining and monitoring. They are leading welding rods manufactures in India.',  
             clientLogo: client3   
         },
         { 
             id: 4,  
-            description:
-            ( 
-                <p className='c4'>
+            description: (
+                <ul className='c4'>
                     <li>Designed and Installation of Water supply valve opening and closing angle indicator.</li>
-                    <li>Power Factor Correction Panel  for pumping station.</li>
-                </p>
+                    <li>Power Factor Correction Panel for pumping station.</li>
+                </ul>
             ),
             clientLogo: client4   
         },
         { 
             id: 5,  
-            description: 'Upgraded Steel bottle base welding machine using PLC (Retrofitting).They are the first Indian steel bottle manufactures.',  
+            description: 'Upgraded Steel bottle base welding machine using PLC (Retrofitting). They are the first Indian steel bottle manufactures.',  
             clientLogo: client5   
         },
         { 
@@ -85,7 +84,11 @@ const FourthDivision = () => {
                     <div key={project.id} className="project-slide">
                         <div className="project-details">
                             <h3>{project.title}</h3>
-                            <p>{project.description}</p>
+                            {typeof project.description === 'string' ? (
+                                <p>{project.description}</p>
+                            ) : (
+                                project.description
+                            )}
                         </div>
                         <div className="client-logo">
                             <img src={project.clientLogo} alt={`Client logo for ${project.title}`} />

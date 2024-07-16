@@ -7,6 +7,9 @@ import TechBlog from './components/TechBlog'
 import EngineeringProjects from './components/EngineeringProjects'
 import ContactUs from './components/ContactUs'  
 import Login from './components/Login'
+import AdminPanel from './components/AdminPage/AdminPanel'
+import ProductsUpload from './components/AdminPage/ProductsUpload'
+import TechBlogUpload from './components/AdminPage/TechBlogUpload'
 
 function App(){
   return (
@@ -19,6 +22,9 @@ function App(){
         <Route path='/engineering-projects' element ={<EngineeringProjects />} />
         <Route path='/contact-us' element ={<ContactUs />} />
         <Route path='/login' element ={<Login />} />
+        <Route path='/admin' element ={<AdminPanel/>} />
+        <Route path='/admin/products-upload' element ={<ProductsUpload />} />
+        <Route path='/admin/techblog-upload' element ={<TechBlogUpload />} />
       </Routes>
     </Router>
   )

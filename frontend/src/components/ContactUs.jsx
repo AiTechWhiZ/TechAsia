@@ -12,12 +12,14 @@ function ContactUs() {
   const [email, setEmail] = useState()
   const [phone, setPhone] = useState()
   const [message, setMessage] = useState()
+  const [successMessage, setSuccessMessage] = useState('');
   const navigate = useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault() //Prevent default submission
     axios.post('http://localhost:3001/contact', {username, email, phone, message}) //Pass the data
     .then(result => { console.log(result)
+      setSuccessMessage('Details uploaded successfully!');
       navigate('/contact-us')
     })
     .catch(err => console.log(err))
@@ -63,6 +65,7 @@ function ContactUs() {
               <textarea className='animation' rows="14" id="message" name="message" placeholder='*Message' onChange={(e) => setMessage(e.target.value)} required></textarea>
             </div>
             <button type="submit" className='btns animation'>Send</button>
+            {successMessage && <p className="success-message">{successMessage}</p>}
           </form>
         </div>
       </div>
